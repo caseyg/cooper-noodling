@@ -1,0 +1,174 @@
+<!--
+The Cooper Union Day and Night School of Art Course Catalog, 1941-1942
+(Thanks for Jakob Biernat for the scan:
+Day Night SoA 1941-1942 Scan Nov 17, 2017 at 12.10
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Officers 1941</title>
+    <link rel="stylesheet" href="PATH">
+    <link rel="stylesheet" href="css/reset.css">
+    <style type="text/css">
+        body {
+            line-height: 1.5;
+        }
+        h2 {
+            font-weight: bold;
+        }
+        .section {
+            display: flex;
+        }
+        .section__header {
+            width: 40vw;
+            padding: 2em 5vw 2em 15vw;
+            align-self: center;
+            background-image: url("bracket.svg");
+            background-repeat: no-repeat;
+            background-size: 8px 16px;
+            background-position: center right;
+            margin-right: -3px;
+            z-index: 100;
+        }
+        .section__list {
+            background: #000;
+            color: #fff;
+            width: 30vw;
+            padding: 2em 5vw;
+        }
+        .section__list--horizontal {
+            display: block;
+            position: relative;
+            width: 30%;
+        }
+        .section__list--horizontal dt,
+        .section__list--horizontal dd {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .section__list--horizontal dt {
+            width: 50%;
+        }
+        .section__list--horizontal dd {
+            width: 30%;
+        }
+        .section__list--indent dt {
+            margin-bottom: 0;
+        }
+        .section__list--indent dd {
+            margin-left: 1em;
+        }
+        h2 {
+            font-size: 1.5em;
+            font-style: italic;
+        }
+        dt,
+        dd,
+        li {
+            margin-bottom: .5em;
+        }
+        dt, li {
+            font-weight: bold;
+        }
+        dd {
+            font-style: italic;
+        }
+        hr {
+            border-color: #000;
+            border: 0;
+            border-left: 3px solid black;
+            margin-right: 1vw;
+            margin:3em 1vw 3em 0;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: space-between;
+            overflow: visible;
+        }
+        hr::before,
+        hr::after {
+            content: "";
+            width: 1em;
+            height: 1em;
+            margin-left: -3px;
+            border-radius: 100%;
+            border: 3px solid #000;
+        }
+        hr::before {
+            margin-top: -50%;
+            clip-path: inset(0 50% 50% 0);
+        }
+        hr::after {
+            margin-bottom: -50%;
+            clip-path: inset(50% 50% 0 0);
+        }
+    </style>
+</head>
+<body>
+    <section class="section section__officers">
+        <header class="header section__header">
+            <h2>Officers</h2>
+        </header>
+        <hr>
+        <dl class="section__list section__list--horizontal">
+            <dt>Gano Dunn</dt>
+            <dd>President</dd>
+            <dt>Edwin S. Burdell</dt>
+            <dd>Director</dd>
+            <dt>Edward L. Rehm</dt>
+            <dd>Secretary</dd>
+            <dt>Robert Winthrop</dt>
+            <dd>Treasurer</dd>
+        </dl>
+    </section>
+    <section class="section section__trustees">
+        <header class="header section__header">
+            <h2>Trustees</h2>
+        </header>
+        <hr>
+        <ul class="section__list">
+            <li>Gano Dunn</li>
+            <li>J.P. Morgan</li>
+            <li>Elihu Root, Jr.</li>
+            <li>Walter S. Gifford</li>
+            <li>Barklie Henry</li>
+        </ul>
+    </section>
+    <section class="section section__advisorycouncil">
+        <header class="header section__header">
+            <h2>Advisory Council</h2>
+            <p>(As constituted May 1, 1941)</p>
+        </header>
+        <hr>
+        <ul class="section__list">
+            <li>Mrs. Ludlow S. Bull</li>
+            <li>Mr. J. André Fouilhoux</li>
+            <li>Mr. Lurelle Van Arsdale...</li>
+            <li>Mrs. Sherman P. Haight</li>
+            <li>Mrs. John Kean</li>
+            <li>Mr. Frederick J. ..</li>
+            <li>Mr. Georg Lober</li>
+            <li>Mrs. Walter S. ...</li>
+            <li>Mrs. William Henry...</li>
+            <li>Mrs. Harford Powel</li>
+            <li>Mrs. Philip J. Roosevelt</li>
+            <li>Mrs. Lucius Wilmerding</li>
+        </ul>
+    </section>
+    <section class="section section__administration">
+        <header class="header section__header">
+            <h2>Administration</h2>
+        </header>
+        <hr>
+        <dl class="section__list section__list--indent">
+            <dt>Guy Gayler Clark</dt>
+            <dd>Professor of Fine...</dd>
+            <dt>Esmond Shaw</dt>
+            <dd>Professor of...</dd>
+            <dt>Raymond Baxter</dt>
+            <dd>Assistant...</dd>
+        </dl>
+    </section>
+</body>
+</html>
